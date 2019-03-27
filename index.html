@@ -1,23 +1,369 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="1671.2">
-  <style type="text/css">
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 20.0px; font: 17.0px Times; color: #eae96f; -webkit-text-stroke: #eae96f}
-    span.s1 {font-kerning: none}
-  </style>
-</head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<title>Pathfinder Pete</title>
+<link href="css/stylesheet.css" rel="stylesheet" type="text/css" media="all" />
+<style type="text/css">
+<!--
+body {
+	background-color: #000;
+	background-image: url();
+}
+-->
+</style></head>
+
 <body>
-<p class="p1"><span class="s1">&lt;!DOCTYPE html&gt;</span></p>
-<p class="p1"><span class="s1">&lt;html&gt;</span></p>
-<p class="p1"><span class="s1">&lt;body&gt;</span></p>
-<p class="p1"><span class="s1">&lt;h1&gt;Hello World 2&lt;/h1&gt;</span></p>
-<p class="p1"><span class="s1">&lt;p&gt;I'm hosted with GitHub Pages.&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1">&lt;/body&gt;</span></p>
-<p class="p1"><span class="s1">&lt;/html&gt;</span></p>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td align="center" valign="top"><p>&nbsp;</p>
+      <table width="681" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td align="left" valign="top"><table width="681" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td align="left" valign="top"><img src="images/header_top.gif" alt="" width="681" height="23" /></td>
+            </tr>
+            <tr>
+              <td align="left" valign="top"><table width="681" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                  <td width="6" align="left" valign="top" class="body_left_bg">&nbsp;</td>
+                  <td align="left" valign="top" class="header_image_box"><table width="659" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                      <td align="left" valign="top" class="header_image">&nbsp;</td>
+                    </tr>
+                    
+                    </table></td>
+                  <td width="6" align="left" valign="top" class="body_right_bg">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td height="28" align="left" valign="top" class="body_left_bg">&nbsp;</td>
+                  <td align="left" valign="top" class="menu_bg"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                      <td height="26" align="left" valign="middle">&nbsp;</td>
+                      </tr>
+                    </table></td>
+                  <td align="left" valign="top" class="body_right_bg">&nbsp;</td>
+                </tr>
+                </table></td>
+            </tr>
+            
+            </table></td>
+        </tr>
+        <tr>
+          <td align="left" valign="top"><table width="681" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="8" height="478" align="left" valign="top" class="body_left_bg">&nbsp;</td>
+            <td align="left" valign="top" class="body_text_box"><p>&nbsp;</p>
+              <p><a href="2017/2017_12_24_big_bear/index.html">Big Bear Mtn</a> 12/24/17</p>
+              <p><a href="2017/2017_12_02_stanton/index.html">Stanton</a> 12/2/17</p>
+              <p><a href="2017/2017_11_25_isreal/index.html">Mt Isreal</a> 11/25/17</p>
+              <p><a href="2017/2017_11_18_ore_hill/index.html">Snore Hill.. I mean Ore Hill</a> 11/18/17</p>
+              <p><a href="2017/2017_11_12_black_mtn/index.html">Black Mountain</a> 11/12/17</p>
+              <p><a href="2017/2017_10_18_SF/index.html">San Fran</a> 10/18/17</p>
+              <p><a href="2017/2017_10_14_tahoe/index.html">Lake Tahoe CA</a> 10/14/17</p>
+              <p><a href="2017/2017_10_07_sando_black/index.html">Sandwich and Black mtn pond</a> 10/07/17</p>
+              <p><a href="2017/2017_10_01_carter_dome/index.html">Carter Dome</a> 10/01/17</p>
+              <p><a href="2017/2017_09_23_hancock/index.html">Hancock Notch</a> 9/23/17</p>
+              <p><a href="2017/2017_09_16_gordon_pond/index.html">Gordon Pond</a> 9/16/17</p>
+              <p><a href="2017/2017_09_02_unknown_cabot/index.html">Unkonwn Pond and Cabot</a> 9/2/17</p>
+              <p><a href="2017/2017_08_26_shoal_pond/index.html">Shoal Pond</a> 8/26/17</p>
+              <p><a href="2017/2017_08_19_flat_mountain_pond/index.html">Flat Mountain Pond (again)</a> 8/19/17</p>
+              <p><a href="2017/2017_08_06_flat_mtn_pond/index.html">Flat Mountain Pond</a> 8/6/17</p>
+              <p><a href="2017/2017_07_29_nancy/index.html">Nancy</a> 7/29/17</p>
+              <p><a href="2017/2017_07_22_potash/index.html">Potash</a></p>
+              <p><a href="2017/2017_07_04_success/index.html">Dream Lake and Success Mtn</a> 7/4/17</p>
+              <p><a href="2017/2017_06_24_garfield_pond/index.html">Garfield Pond</a></p>
+              <p><a href="2017/2017_06_17_ponds/index.html">All the Ponds</a></p>
+              <p><a href="2017/2017_06_04_sando_via_gleason/index.html">Sandwich another way</a></p>
+              <p><a href="2017/2017_05_20_paugus/index.html">Paugus</a></p>
+              <p><a href="2017/2017_05_13_jennings_sandwich/index.html">Sandwich</a></p>
+              <p><a href="2017/2017_04_30_mexico/index.html">Mt Mexico</a></p>
+              <p><a href="2017/2017_04_09_parker/index.html">Parker</a></p>
+              <p><a href="2017/2017_03_25_grifith_lake/index.html">Grifith Lake</a></p>
+              <p><a href="2017/2017_03_19/index.html">MA to VT</a></p>
+              <p><a href="2017/2017_03_01_Iceland4/index.html">Iceland</a></p>
+              <p><a href="2017/2017_01_28_carr/index.html">Carr</a></p>
+              <p><a href="2017/2017_01_22_ellen/index.html">Ellen</a></p>
+              <p><a href="2017/2017_01_01_zealand/index.html">Zealand</a> NYE 2017</p>
+<p><a href="2016/2016_11_27_pierce_eisenhower/index.html">Pierce and Eisenhower</a> 11/27/16</p>
+              <p><a href="2016/2016_11_19_moriah_stony">Moriah</a> 11/19/16</p>
+              <p><a href="2016/2016_11_06_webster_jackson">Webster Jackson</a> 11/06/16</p>
+              <p><a href="2016/2016_10_10_osceolas_tecumseh/index.html">Osceolas and Tecumseh</a> 10/10/16</p>
+              <p><a href="2016/2016_09_24_speckled/index.html">Speckled Mountain</a> 9/24/16</p>
+              <p><a href="2016/2016_09_18_madison/index.html">Madison</a> 9/18/16</p>
+              <p><a href="2016/2016_09_03_meader/index.html">Meader</a> 9/3/16</p>
+              <p><a href="2016/2016_08_16_garfield/index.html">Garfield</a> 8/28/16</p>
+              <p><a href="2016/2016_07_24/index.html">Moosilauke</a> 7/24/16</p>
+              <p><a href="2016/2016_06_25_alaska/index.html">Alaska day 6</a> 6/25/16</p>
+              <p><a href="2016/2016_06_24_alaska/index.html">Alaska day 5</a> 6/24</p>
+              <p><a href="2016/2016_06_23_alaska/index.html">Alaska day 4</a> 6/23</p>
+              <p><a href="2016/2016_06_22_alaska/index.html">Alaska day 3</a> 6/22</p>
+              <p><a href="2016/2016_06_21_alaska2/index.html">Alaska day 2 second hike</a> 6/21</p>
+              <p><a href="2016/2016_06_21_alaska/index.html">Alaska day 2</a> 6/21</p>
+              <p><a href="2016/2016_06_20_alaska/index.html">Alaska day 1</a> 6/20/16</p>
+              <p><a href="2016/2016_06_11_king_ravine/index.html">King Ravine</a> 6/11/16</p>
+              <p><a href="2016/2016_06_04_carrigain/index.html">Carrigain backpack</a> 6/4/16s</p>
+              <p><a href="2016/2016_05_19_rt66/index.html">Rt. 66</a> 5/19/16</p>
+              <p><a href="2016/2016_05_18_grand_canyon/index.html">Grand Canyon</a> 5/18/16</p>
+              <p><a href="2016/2016_05_17_kanab/index.html">Kanab</a> 5/17/16</p>
+              <p><a href="2016/2016_05_16_bryce/index.html">Bryce</a> 5/16/16</p>
+              <p><a href="2016/2016_05_15_bryce/index.html">Bryce</a> 5/15/16</p>
+              <p><a href="2016/2016_02_bend/index.html">Bend</a> Feb 16</p>
+              <p><a href="2015/2015_11_21_culebra/index.html">Culebra</a> 11/21/15</p>
+              <p><a href="2015/2015_10_24_monroe/index.html">Monroe </a>10/24</p>
+              <p><a href="2015/2015_10_03_gordon_pond/index.html">Gordon Pond, Mt Wolf</a> 10/3</p>
+              <p><a href="2015/2015_09_20_algonquin/index.html">Algonquin trail</a> 9/20</p>
+              <p><a href="2015/2015_09_06_mooselookmeguntic5/index.html">Mooselookmeguntic</a> 9/6</p>
+              <p><a href="2015/2015_08_30_s_kinsman/index.html">South Kinsman</a> 8/30</p>
+              <p><a href="2015/2015_08_16_blueberry/index.html">Blueberry Stumble</a> 8/16</p>
+              <p><a href="2015/2015_08_02_stratton/index.html">Stratton day 2</a> 8/2</p>
+              <p><a href="2015/2015_08_01_stratton/index.html">Stratton day 1</a></p>
+              <p><a href="2015/2015_07_25_other_flume/index.html">The other Flume</a> 7/25</p>
+              <p><a href="2015/2015_06_27_moosilauke/index.html">Moosilauke</a> 6/27</p>
+              <p><a href="2015/2015_06_20_franconia/index.html">Franconia ridge 6/20</a></p>
+              <p><a href="2015/2015_06_16_old_speck/index.html">Old Speck</a> 6/16</p>
+              <p><a href="2015/2015_06_14_washington_monroe/index.html">Washington and Monroe</a> 6/14</p>
+              <p><a href="2015/2015_06_16_old_speck/index.html">Old Speck</a> 6/13</p>
+              <p><a href="2015/2015_06_06_Isolation/index.html">Isolation</a> 6/6</p>
+              <p><a href="2015/2015_05_30_garfield/index.html">Garfield</a> 5/30</p>
+              <p><a href="2015/2015_05_24_carrigan/index.html">Carrigan</a> 5/24</p>
+              <p><a href="2015/NZ_favorites/index.html">New Zealand: favorites</a> a smaller selection </p>
+              <p><a href="2015/NZ_all/index.html">New Zealand</a> (all days)</p>
+              <p>New Zealand by day:</p>
+              <p><a href="2015/New Zealand/2015_03_03/index.html">New Zealand day 1</a> 3/3/2015</p>
+              <p><a href="2015/New Zealand/2015_03_04/index.html">New Zealand day 2</a> 3/4</p>
+              <p><a href="2015/New Zealand/2015_03_05/index.html">New Zealand day 3</a> 3/5</p>
+              <p><a href="2015/New Zealand/2015_03_06/index.html">New Zealand day 4</a> 3/6</p>
+              <p><a href="2015/New Zealand/2015_03_07/index.html">New Zealand day 5</a> 3/7</p>
+              <p><a href="2015/New Zealand/2015_03_08/index.html">New Zealand day 6</a> 3/8</p>
+              <p><a href="2015/New Zealand/2015_03_09/index.html">New Zealand day 7</a> 3/9</p>
+              <p><a href="2015/New Zealand/2015_03_10/index.html">New Zealand day 8</a> 3/10</p>
+              <p><a href="2015/New Zealand/2015_03_11/index.html">New Zealand day 9</a> 3/11</p>
+              <p><a href="2015/New Zealand/2015_03_12/index.html">New Zealand day 10</a> 3/12</p>
+              <p><a href="2015/New Zealand/2015_03_13/index.html">New Zealand day 11</a> 3/13</p>
+              <p><a href="2015/New Zealand/2015_03_14/index.html">New Zealand day 12</a> 3/14</p>
+              <p><a href="2015/New Zealand/2015_03_15/index.html">New Zealand day 13</a> 3/15</p>
+              <p><a href="2015/New Zealand/2015_03_16/index.html">New Zealand day 14</a> 3/16</p>
+              <p><a href="2015/New Zealand/2015_03_17/index.html">New Zealand day 15</a> 3/17</p>
+              <p><a href="2015/New Zealand/2015_03_18/index.html">New Zealand day 16</a> 3/18</p>
+              <p><a href="2015/New Zealand/2015_03_19/index.html">New Zealand day 17</a> 3/19</p>
+              <p><a href="2015/New Zealand/2015_03_20/index.html">New Zealand day 18</a> 3/20</p>
+              <p><a href="2015/New Zealand/2015_03_21/index.html">New Zealand day 19</a> 3/21</p>
+              <p>&nbsp;</p>
+              <p><a href="2015/Colorado/index.html">Colorado</a> January 2015</p>
+              <p><a href="2014/2014_11_24_stcroix/index.html">St Croix</a> 11/24/14</p>
+              <p><a href="2014/2014_10_11_Eisenhower/index.html">Eisenhower</a> 10/11/14 Kristen's 48th</p>
+              <p><a href="2014/glacier2/index.html">Glacier National Park</a> September</p>
+              <p><a href="2014/2014_09_28_tripyramids/index.html">Tripyramids</a> 9/28/14</p>
+              <p><a href="2014/2014_08_23_bonds/index.html">Bonds</a> 8/23/14</p>
+              <p><a href="2014/2014_07_12_king_ravine/index.html">King Ravine</a> 7/12/14</p>
+              <p><a href="2014/2014_06_15_madison/index.html">Madison</a> 6/15/14 (originally going to be a presi traverse)</p>
+              <p><a href="2014/2014_06_08_monroe_washington/index.html">Monroe and Washington</a> 6/8/14</p>
+              <p><a href="2014/2014_06_01_carters/index.html">Catrters</a> 6/1/14              </p>
+              <p><a href="2014/2014_03_02_cabot/index.html">Cabot</a> 3/2/14</p>
+              <p><a href="2014/2014_02_16_camels_hump/index.html">Camel's Hump</a> 2/16/14 bc ski (great for hiking, very narrow for skiing)</p>
+              <p><a href="2014/2014_02_09_moriah/index.html">Moriah</a> 2/9/14 </p>
+              <p><a href="2014/2014_02_02_mansfield/index.html">Mansfield</a> 2/2/14 bc ski</p>
+              <p><a href="2014/2014_01_25_waumbek/index.html">Waumbek</a> 1/25/14</p>
+              <p><a href="2014/2014_01_20_Isolation/index.html">Isolation</a> 1/20/14</p>
+              <p><a href="2014/2014_01_05_liberty_flume/index.html">Liberty and FLume</a> 01/15/2014</p>
+              <p><a href="2013/2013_12_15_Bierstadt/index.html">Mt Bierstadt (CO) my first 14er</a> 12/15/13</p>
+              <p><a href="2013/2013_12_12_emerald_lake/index.html">Emerald Lake (CO)</a> 12/12/13</p>
+              <p><a href="2013/2013_11_23_TFA/index.html">Tom Field and Avalon</a> 11/23/13</p>
+              <p><a href="2013/2013_10_26_kinsmans/index.html">Kinsmans</a> 10/26/13</p>
+              <p><a href="2013/2013_10_13_liberty_flume/index.html">Liberty and Flume</a> 10/13/13</p>
+              <p><a href="2013/2013_09_07_garfield/index.html">Garfield</a> 09/07/13</p>
+              <p><a href="2013/2013_08_17_crawford/index.html">Mt Crawford</a> 8/17/13</p>
+              <p><a href="2013/2013_07_14_adams/index.html">Adams</a> 7/14/13</p>
+              <p><a href="2013/2013_06_16_huntington/index.html">Huntington Ravine</a> 6/16/13</p>
+              <p><a href="2013/2013_05_04_tucks/index.html">Tuckermans</a> 5/4/13</p>
+              <p><a href="2013/2013_01_19_Liberty/index.html">Liberty</a> 1/19/13</p>
+              <p><a href="2012/2012_12_31_carter/index.html">Carter Dome and Carter Notch Hut</a> 12/31/12</p>
+              <p><a href="2012/2012_11_18_Lafayette/index.html">Lafayette </a>11/18/12</p>
+              <p><a href="2012/2012_11_11_Eisenhower/index.html">Mt Eisenhower</a> 11/11/12</p>
+              <p><a href="2012/2012_10_20_king_ravine/index.html">King Ravine, Mt Madison</a> 10/20/12              </p>
+              <p><a href="2012/2012_10_13_morgan_percival/index.html">Morgan and Percival</a> 10/13/12</p>
+              <p><a href="2012/2012_09_22_tremont/index.html">Mt Tremont</a> 9/22/12</p>
+              <p><a href="2012/2012_09_01_dry_river/index.html">Dry River wilderness</a> 9/1/12</p>
+              <p><a href="2012/2012_08_25_liberty/index.html">Mt Liberty</a> 8/25/12</p>
+              <p><a href="2012/2012_06_24_king_ravine/index.html">King Ravine, mt Adams</a> 6/24/12</p>
+              <p><a href="2012/2012_06_17_cherry_mt/index.html">Cherry Mountain</a> 6/17/12</p>
+              <p><a href="2012/2012_06_09_jefferson_castle/index.html">Jefferson via Castle ravine</a> 6/9/12</p>
+              <p><a href="2012/2012_05_26_pierce_eisenhower/index.html">Pierce and Eisenhower</a> 5/26/12</p>
+              <p><a href="2012/2012_04_29_jackson/index.html">Jackson</a> 4/29/12</p>
+              <p><a href="2012/2012_04_15_welch_dickey/index.html">Welch and Dickey</a> 4/15/12</p>
+              <p><a href="2012/2012_02_19_Pierce/index.html">Pierce</a> 2/19/12</p>
+              <p><a href="2012/2012_01_28_Liberty/index.html">Liberty</a>1/28/12</p>
+              <p><a href="2012/2012_01_22_Mt_Madison/index.html">Madison</a> 1/22/12</p>
+              <p><a href="2011/2011_12_18_moos/index.html">Moosilauke</a> 12/18/11</p>
+              <p><a href="2011/2011_12_11_Moriah/index.html">Moriah</a> 12/11/11</p>
+              <p><a href="2011/2011_11_27_Kearsarge/index.html">Kearsarge (pie)</a> 11/27/11</p>
+              <p><a href="2011/2011_11_20_Cardigan/index.html">Cardigain</a> 11/20/11</p>
+              <p><a href="2011/2011_10_31_lady_washington/index.html">Mt Lady Washington CO</a> 10/31/11</p>
+              <p><a href="2011/2011_10_30_Eldorado/index.html">Eldorado CO</a> 10/30/11</p>
+              <p><a href="2011/2011_10_29_Salida/index.html">Salida CO</a> 10/29/11</p>
+              <p><a href="2011/2011_10_27_brainard_lake/index.html">Brainard Lake CO</a> 10/27/11</p>
+              <p><a href="2011/2011_10_26_RMNP/index.html">Rocky Mountain National Park</a> CO 10/26/11</p>
+              <p><a href="2011/2011_10_22_trempealeau/index.html">Trempealeau WI</a> 10/22/11</p>
+              <p><a href="2011/2011_10_09_morgan_n_percival/index.html">Morgan Percival</a> 10/9/11</p>
+              <p><a href="2011/2011_09_25_L&L/index.html">Lincoln and Lafayette</a> 9/25/11</p>
+              <p><a href="2011/2011_09_17_mt_crawford/index.html">Crawford</a> 9/17/11</p>
+              <p><a href="2011/2011_09_10_Isolation/index.html">Isolation</a> 9/10/11</p>
+              <p><a href="2011/2011_09_03_bigelow/index.html">Bigelow ME</a> 9/3/11</p>
+              <p><a href="2011/2011_08_13_stumble/index.html">Blueberry stumble 3.5</a> 8/13/11 </p>
+              <p><a href="2011/2011_08_06_crawford/index.html">Davis Path</a> 8/6/11 </p>
+              <p><a href="2011/2011_07_30_camel/index.html">Camel's Hump</a> 7/30/11 </p>
+              <p><a href="2011/2011_07_09_madison/index.html">Madison</a>  7/9/11 </p>
+              <p><a href="2011/2011_07_02_presi/index.html">Presidential Traverse </a>7/2/11</p>
+              <p><a href="2011/2011_06_25_Nancy/index.html">Nancy</a> 6/25/11  </p>
+              <p><a href="2011/2011_06_19_cannon/index.html">Cannon</a> 6/19/11 </p>
+              <p><a href="2011/2011_06_18_Garfield/index.html">Garfield</a> 6/18/11 </p>
+              <p><a href="2011/2011_05_30_Liberty/index.html">Liberty</a> 5/30/11 </p>
+              <p><a href="2011/2011_04_09_tucks/index.html">Tuckermans</a> 4/9/11 </p>
+              <p><a href="2011/2011_04_03_tecumseh/index.html">Tecumseh</a> 4/3/11 </p>
+              <p><a href="2011/2011_03_26_webster/index.html">Webster</a> 3/26/11 (<a href="2011/2011_03_26_webster/D7K_0914.mov">Here is a short video I shot to show how windy it was</a>) </p>
+              <p><a href="2011/2011_01_30_cannon/index.html">Cannon</a> 1/30/11 </p>
+              <p>Tecumseh 1/29/11 (I forgot my camera and have no pictures) </p>
+              <p><a href="2011/2011_01_21_owlshead/index.html">Owl's Head</a> 1/21/11 </p>
+              <p><a href="2011/2011_01_16_7mountains/index.html">Tripyramids, Sleepers, Whiteface and Passaconaway</a> 1/16/11 </p>
+              <p><a href="2011/2011_01_15_Waumbek/index.html">Waumbek</a> 1/15/2011 </p>
+              <p><a href="2011/2011_01_09_TFW/index.html">Tom, Field and Willey</a> 1/09/2011 </p>
+              <p><a href="2011/2011_01_02_zealand/index.html">Zealand hut</a><a href="2011_01_02_zealand/index.html"></a> 1/2/11 </p>
+              <p><a href="2011/2011_01_01_zealand/index.html">Mt Zealand</a><a href="2011_01_01_zealand/index.html"></a> 1/1/11 </p>
+              <p><a href="2010_12_31_hale/index.html">Mt Hale</a> 12/31/10 </p>
+              <p><a href="2010_12_29_hancocks/index.html">Hancock N and S</a> 12/29/10 </p>
+              <p><a href="2010_12_24_garfield/index.html">Garfield</a> 12/24/10 </p>
+              <p><a href="2010_10_11_mansfield/index.html">Mansfield</a> 10/11/10 </p>
+              <p><a href="2010/2010_09_04_marcy/index.html">Mt Marcy</a> 9/4/10</p>
+              <p><a href="2010/2010_08_28_jennings_n_sando/index.html">Jennings</a> 8/28/10</p>
+              <p><a href="2010/2010_08_14_liberty/index.html">liberty </a>8/14/10 </p>
+              <p><a href="2010/2010_07_18_king_ravine/index.html">King Ravine</a> 7/18/10 </p>
+              <p>I'm skipping a TON of stuff here... hope to get back and update it sometime! </p>
+              <p><a href="2010_carters/carters.html">Carters</a> 3/13/10 </p>
+              <p><a href="2010_liberty/lib.html">Liberty</a> 3/07/10</p>
+              <p><a href="2010_kinsmans/k.html">Kinsmans</a> 2/21/10 </p>
+              <p><a href="2010_osceolas/o.html">Osceolas</a> 2/13/10 </p>
+              <p><a href="2010_carrigain/c.html">Carrigain</a> 2/6/10 </p>
+              <p><a href="2010_cannon/c.html">Cannon</a> 1/31/10 </p>
+              <p><a href="2010_moosilauke/moos.html">Moosilauke</a> 1/17/2010</p>
+              <p><a href="2009/2009_12_28_lafayette/index.html">lafayette</a> 12/28/09 </p>
+              <p><a href="2009/2009_11_29_oldsp/index.html">Old Speck</a> 11/29/09 I changed the formatting again, now you can view the thumbs like normal and when you go to the image it is linked to the other images, so you can then view them like a slideshow. </p>
+              <p><a href="2009/2009_11_15_crawford/index.html">Mt Crawford </a>11/15/2009 a great solo hike</p>
+              <p><a href="2009/2009_11_08_eisen/index.html">Eisenhower, Ashley's NH48 </a>11/08/2009</p>
+              <p><a href="2009/2009_11_01_jack_p/index.html">Mt Pierce and Jackson </a>11/1/2009</p>
+              <p><a href="2009/2009_10_17_northPr/index.html">Nothern Presidential traverse </a>10/17/2009</p>
+              <p><a href="2009/2009_10_11_king/index.html">Adams attempt</a> 10/11/2009 Started the king ravine, but had to turn back because of freezing rain and wet rocks </p>
+              <p><a href="2009/2009_09_27_owl/index.html">Owl's Head</a> 09/27/2009 </p>
+              <p><a href="2009/2009_09_20_kinsmans/index.html">Kinsmans</a> 09/20/2009 </p>
+              <p><a href="2009/2009_09_13_backpack/index.html">Backpacking trip 09</a> 09/13/2009 </p>
+              <p><a href="2009/2009_09_06_baxter2/index.html">Baxter day 2</a> 09/06/2009 - kayaking and photography </p>
+              <p><a href="2009/2009_09_05_baxter1/index.html">Baxter</a> 09/05/2009 - Katahdin </p>
+              <p><a href="2009/2009_08_30_tripyramids/index.html">Tripyramids</a> 08/30/2009 </p>
+              <p><a href="2009/2009_08_09_blueberry/index.html">Blueberry Stumble</a> 08/09/2009 </p>
+              <p><a href="2009/2009_08_01_franconia_ridge/index.html">Franconia Ridge</a> 08/01/2009 </p>
+              <p><a href="2009/2009_07_26_waumbek/index.html">Mt Waumbek</a> 7/26/2009 </p>
+              <p><a href="2009/2009_07_25_isolation/index.html">Mt Isolation</a> 7/25/2009 </p>
+              <p><a href="2009/2009_07_19_monroe/index.html">Mt Monroe</a> 7/19/2009 </p>
+              <p><a href="2009/2009_07_12_jam/index.html">Northern Presidential range</a> 7/12/2009 </p>
+              <p><a href="2009/2009_07_05_aberham/index.html">Aberham VT</a> 07/05/2009 </p>
+              <p><a href="2009/2009_06_28_passaconaway/index.html">Passaconaway</a> 06/28/2009</p>
+              <p><a href="2009/2009_06_20_hancocks/index.html">Hancocks</a> 06/20/2009 </p>
+              <p><a href="2009/2009_06_07_moosilauke/index.html">Moosilauke</a> 06/07/2009 
+              <p><a href="../europe_09/index.html">Europe</a> May 09 
+              <p><a href="2009/2009_05_09_liberty/index.html">Liberty and Flume</a> 5/9/2009              
+              <p>Mexico
+              
+              <p><a href="2009/2009_04_05_cannon/index.html">Mt Cannon</a> 4/5/2009 
+              <p><a href="2009/2009_02_28_washington/index.html">Mt Washington</a> 2/28/2009 </p>
+                <p>
+                    <a href="2009/2009_01_18_whiteface/index.html">Mt Whiteface</a> 1/18/09</p>
+              <p><a href="2009/2009_01_03_moriah/index.html">Mt Moriah</a> 01/10/09 </p>
+              <p><a href="Tecumseh_12_2008/tc.html">Mt Tecumseh (Dec)</a> 12/20/08 </p>
+              <p><a href="Garfield 2008/garfield.html">Garfield</a> 11/29/08 </p>
+              <p><a href="Lonesome Lake/ll.html">Lonesome Lake</a> 11/28/08 </p>
+              <p><a href="Breadloaf_wilson/bw.html">Breadload and Wilson</a> 11/23/08 </p>
+              <p><a href="Mendon and Killington/mk.html">Mendon and Killington</a> 11/16/08 </p>
+              <p><a href="Acadia/acadia.html">Acadia</a> 11/10/2008 (not really a hike) </p>
+              <p><a href="Spalding Sugarloaf and Abraham/ssa.html">Spalding Sugarloaf and Abraham</a> 11/9/2008 </p>
+              <p><a href="Carrigain NH48/carrigain.html">Carrigain, my last NH48</a> 11/2/2008 </p>
+              <p><a href="Wisconsin_camping/wi.html">Wisconsin Camping</a> 10/18/2008</p>
+              <p><a href="webster_jackson_pierce/wjp.html">Webster, Jackson and Pierce</a> 10/13/2008 </p>
+              <p><a href="Carter Dome/carter_dome.html">Carter Dome</a> 10/12/2008 </p>
+              <p><a href="Hancocks/Hancocks.html">Hancocks</a> 10/05/2008 </p>
+              <p><a href="Tripyramids/tripyramids.html">Tripyramids</a> 10/04/2008</p>
+              <p><a href="Rock_climbing/MetroRock.html">Rock Climbing gym</a>10/02/2008</p>
+              <p><a href="carters/carters.html">Carters</a> 09/20/2008 </p>
+              <p><a href="hale_zealand/hale_zealand.html">Hale and Zealand</a> 08/30/2008 </p>
+              <p><a href="Katahdin/Katahdin.html">Katahdin</a> 08/17/2008</p>
+              <p><a href="blueberryStumble/blueberry.html">Baldface, The Great Blueberry Stumble</a> 08/09/2008 </p>
+              <p><a href="Moriah/moriah.html">Moriah</a> 08/03/2008  </p>
+              <p><a href="GaleheadOwlshead/owlshead.html">OwlsHead and Galehead</a> 07/20/2008 </p>
+              <p><a href="Osceola/Osceola.html">Osceola</a> 07/13/2008</p>
+              <p><a href="Whiteface_Passaconaway/whiteface.html">Whiteface and Passaconaway</a> 07/05/2008</p>
+              <p><a href="Tecumseh/tecumseh.html">Tecumseh</a> 6/28/2008</p>
+              <p><a href="Bonds_Twins/Bonds_twins.html">Bonds and Twins </a>6/15/2008</p>
+              <p><a href="Isolation2/Isolation2.html">Isolation</a>  again 6/13/2008  </p>
+              <p>Mt Cannon 06/08/2008 </p>
+              <p><a href="Cabot_waumbeck/Cabot_waumbeck.html">Mt Cabot and Waumbek</a> 06/07/2008 </p>
+              <p><a href="Presidential_traverse/presi_traverse.html">Presidential Traverse</a> 06/01/2008</p>
+              <p>Jenning's Peak 05/18/2008  </p>
+              <p><a href="Wildcats/wildcats.html">Wildcats</a> 5/17/2008</p>
+              <p><a href="Isolation/Isolation.html">Isolation</a> 5/10/2008</p>
+              <p><a href="Willey_Range/Willey_range.html">Willey range</a> 04/27/2008 </p>
+              <p><a href="Kinsmans/Kinsmans.html">Kinsmans</a> 04/20/2008 </p>
+              <p><a href="MtChocorua2/Chocorua.html">Mt Chocorua</a> 04/06/2008 </p>
+              <p><a href="Mt_pierce_and_eisenhower/Pierce.html">Mt Pierce and Mt Eisenhower</a> 3/30/08 </p>
+              <p><a href="MtMoosilauke2/Moosilauke.html">Mt Moosilauke</a> 3/23/08 </p>
+              <p><a href="http://picasaweb.google.com/ferumbras/WatervilleValley">Waterville valley ski trip</a> 3/16/08 my first time downhill skiing...and yes I am too lazy to make them into another webpage </p>
+              <p>got my PADI SCUBA certification (no pictures) 3/02/08 </p>
+              <p><a href="Mt_Avalon2/Mt_Avalon2.html">return to Mt Avalon (attempt at Mt Tom)</a> 2/18/2008 </p>
+              <p><a href="MtJackson/Jackson.html">Mt Jackson</a> 02/09/2008 </p>
+              <p><a href="Mt Hedgehog/Hedgehog.html">Mt Hedgehog</a> 02/02/2008 </p>
+              <p> <a href="Jackson_xc/Jackson_xc.html">Jackson xc ski trip</a> 1/19/2008  </p>
+              <p><a href="MtChocoura/Mt Chocoura.html">Mt Chocoura</a> 10/20/2007 I did do some hiking between these dates, but they were small or ones I did before. </p>
+              <p><a href="Backpack3/Backpack3.html">Backpack day 3</a> 08/12/2007 </p>
+              <p><a href="Backpack2/backpack2.html">Backpack Day 2</a> 08/11/2007 </p>
+              <p><a href="Backpack1/backpack1.html">Backpack Day1</a> 08/10/2007 </p>
+              <p><a href="Jennings_Sandwich/jennings_sandwich.html">Jenning's and Mt Sandwich</a> 07/21/2007 </p>
+              <p><a href="ArethusaFalls/ArethusaFalls.html">Arethusa Falls</a> 07/14/2007 </p>
+              <p><a href="MtMoosilauke/MtMoosilauke.html">Mt Moosilauke</a> 7/13/2007 </p>
+              <p><a href="MtMorgan/Morgan.html">Mt Morgan</a> 07/10/2007 </p>
+              <p><a href="MtWashington/index.html">Mt Washington</a> 07/04/2007 </p>
+              <p><a href="SacoRiver/index.html">SacoRiver</a> 07/02/2007 (this isn't actually a hike, but I thought I would include it anyway) </p>
+              <p><a href="MtLayfayette/index.html" title="Mt lafayette">Mt Lafayette</a> 06/27/2007</p>
+              <p><a href="Welsh Dickie/index.html">Welsh-Dickie</a> 6/21/2007 </p>
+              <p><a href="MtAvalon/index.html">Mt Avalon</a> 06/16/2007 </p>
+              <p><a href="MtCanon/index.html">Mt Canon</a> 06/13/2007 </p>
+              <p><a href="MtCardigan/index.html">Mt Cardigan</a> 06/07/2007 </p>
+              <p><a href="Sunapee/index.html">Sunapee</a> 05/31/2007</p>
+              <p><a href="JenningsPeak/index.html">Jenning's Peak</a> 5/28/2007 </p>
+              <p>&nbsp;</p>
+              <p></p>
+              <p>&nbsp;</p></td>
+              <td width="8" align="left" valign="top" class="body_right_bg">&nbsp;</td>
+            </tr>
+            </table></td>
+        </tr>
+        <tr>
+          <td align="left" valign="top"><table width="681" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="6" rowspan="2" align="left" valign="top"><img src="images/footer_left.gif" alt="" width="6" height="56" /></td>
+              <td style="white-space:pre; font-size:11px; font-weight:bold; color:#601E29; color:#7AA01E;" height="23" colspan="2" align="center" valign="middle" bgcolor="#D9F691">&nbsp;</td>
+              <td width="6" rowspan="2" align="left" valign="top"><img src="images/footer_right.gif" alt="" width="6" height="56" /></td>
+            </tr>
+            <tr>
+              <td width="513" height="33" align="right" valign="top" class="footer_left_bg">&nbsp;</td>
+<!--
+We request you retain the full web design copyright notice below including the link to http://www.sarkis-webdesign.com
+This not only gives respect to the large amount of time given freely by the designer but also helps build interest, traffic and use of template. If you cannot (for good reason) retain the full design copyright we request you at least leave in place the image Web designer - Sarkis, with linked to http://www.sarkis-webdesign.com. Good luck!
+
+Web designer Sarkis: 2006
+// -->
+              <td width="155" align="left" valign="top"><a href="http://www.sarkis-webdesign.com/" target="_blank"><img src="images/webdesigner.gif" alt="Freelance Web Designer" width="156" height="33" border="0" /></a></td>
+            </tr>
+            </table></td>
+        </tr>
+    </table></td></tr>
+</table>
 </body>
 </html>
